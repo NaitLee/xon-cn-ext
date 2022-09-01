@@ -1,0 +1,9 @@
+title 向前冲
+description 中等大小的快节奏封闭地图
+author FruitieX, Cortez, Strahlemann, Debugger
+cdtrack 6
+has weapons
+gametype dm
+gametype lms
+gametype ka
+gametype duel

@@ -1,0 +1,14 @@
+title 最终狂怒
+description 小型地图，有非常险恶的垂直行动
+author Munyul Verminard, tZork, L0, proraide
+cdtrack 17
+has weapons
+gametype dm
+gametype tdm
+gametype dom
+gametype lms
+gametype ca
+gametype ft
+gametype kh
+gametype ka
+gametype duel

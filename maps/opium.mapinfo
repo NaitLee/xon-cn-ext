@@ -1,0 +1,13 @@
+title 麻木
+description 中等地图，有许多垂直行动空间
+author cityy, Mirio
+cdtrack 21
+has weapons
+gametype dm
+gametype tdm
+gametype lms
+gametype ca
+gametype ka
+gametype kh
+gametype ft
+gametype dom

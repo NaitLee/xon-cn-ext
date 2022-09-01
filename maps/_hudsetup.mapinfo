@@ -1,0 +1,10 @@
+title HUD 配置
+description 用于 HUD 配置的小型地图
+author FruitieX
+cdtrack 1
+noautomaplist
+forbidden
+gametype dm timelimit=0
+
+settemp_for_type all bot_number 0
+settemp_for_type all minplayers 0

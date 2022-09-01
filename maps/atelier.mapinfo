@@ -1,0 +1,13 @@
+title 工作坊
+description 大地图，很适合团队游戏
+author ShadoW, Mirio, Debugger
+cdtrack 19
+has weapons
+gametype dm
+gametype lms
+gametype tdm
+gametype ca
+gametype ft
+gametype ka
+gametype kh
+gametype dom

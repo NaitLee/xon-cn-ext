@@ -1,0 +1,13 @@
+title 废弃溴工厂
+description 金属、锈迹风格的地图，适合大型竞赛
+author packer
+has weapons
+cdtrack 22
+gametype ca
+gametype dm
+gametype dom
+gametype ft
+gametype ka
+gametype kh
+gametype lms
+gametype tdm

@@ -1,0 +1,15 @@
+title 石油场
+description 离岸石油场，非常大的开放地图
+author Tronyn, Debugger, SavageX, Dustin Geeraert, Garth Hendy
+cdtrack 8
+has weapons
+gametype dm
+gametype lms
+gametype tdm
+gametype ca
+gametype kh
+gametype ft
+gametype ka
+hidden
+
+clientsettemp_for_type all r_shadow_realtime_world 0 // 在此禁用，因为性能显著降低

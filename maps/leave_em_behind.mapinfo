@@ -1,0 +1,9 @@
+title 统统甩开
+description 非常小的竞速地图
+author CuBe0wL, Cortez
+cdtrack 20
+gametype rc timelimit=10 qualifying_timelimit=5
+gametype cts
+
+settemp_for_type all g_balance_shotgun_weaponstart 0
+settemp_for_type all g_balance_shotgun_weaponstartoverride 1

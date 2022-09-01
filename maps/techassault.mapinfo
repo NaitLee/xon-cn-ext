@@ -1,0 +1,11 @@
+title 科技突袭
+description 中等大小的突击地图
+author SavageX, Cortez
+has weapons
+gametype as
+cdtrack 13
+// optional: fog density red green blue alpha mindist maxdist
+// optional: settemp_for_type (all|gametypename) cvarname value
+// optional: clientsettemp_for_type (all|gametypename) cvarname value
+size -5800 -3500 -2048 7000 3500 1536
+// optional: hidden

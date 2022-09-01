@@ -1,0 +1,14 @@
+title 静谧围城
+description 中等大小的淘汰赛/团队死亡竞赛地图
+author Justin, kuniu the frogg
+cdtrack 2
+has weapons
+gametype dm
+gametype lms
+gametype tdm
+gametype ca
+gametype ft
+gametype ka
+gametype kh
+gametype dom
+gametype duel

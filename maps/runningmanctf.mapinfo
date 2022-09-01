@@ -1,0 +1,13 @@
+title 向前冲：夺旗战
+description 中等大小的快节奏封闭地图，支持很多游戏模式
+author FruitieX, Cortez, Strahlemann, Debugger
+cdtrack 6
+has weapons
+gametype tdm
+gametype ctf
+gametype ca
+gametype ons
+gametype dom
+gametype ft
+gametype kh
+

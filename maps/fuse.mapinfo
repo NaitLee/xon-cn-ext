@@ -1,0 +1,13 @@
+title 导火索
+description 2012 年淘汰赛地图制作赛获胜地图
+author Ferdinand 'cityy' List
+cdtrack 4
+has weapons
+gametype dm
+gametype lms
+gametype ka
+gametype kh
+gametype ft
+gametype ca
+gametype tdm
+gametype duel

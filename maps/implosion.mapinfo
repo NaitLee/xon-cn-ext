@@ -1,0 +1,14 @@
+title 聚爆实验场
+description 太空风格的夺旗战地图
+author MintOX, Mirio, Mario, packer, SpiKe
+cdtrack 18
+has weapons
+gametype ctf
+gametype ft
+gametype kh
+gametype ka
+gametype ca
+gametype tdm
+gametype lms
+gametype dom
+gametype dm
