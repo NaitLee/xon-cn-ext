@@ -39,10 +39,11 @@ Xonotic/
 
 然后，使用任一方式“安装”：
 
-- 去[发布页面](https://github.com/NaitLee/xon-chs-ext/releases)下载后缀为 `.pk3` 的资源包，放入资源目录
+- 去[发布页面](https://github.com/NaitLee/xon-chs-ext/releases)下载后缀为 `.pk3` 的资源包，放入资源目录  
+  然后，将资源包文件*重命名*为 `~xon-chs-ext.pk3`，注意开头的波浪号
 
 - 也可以在资源目录克隆此仓库：`git clone https://github.com/NaitLee/xon-chs-ext`  
-  然后，将仓库文件夹重命名为 `~xon-chs-ext.pk3dir`
+  然后，将仓库文件夹*重命名*为 `~xon-chs-ext.pk3dir`
 
 之后，可考虑：
 

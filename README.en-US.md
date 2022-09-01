@@ -45,7 +45,8 @@ The following context will refer this path as “data directory”.
 
 Then, “install” the pack:
 
-- Go to [releases](https://github.com/NaitLee/xon-chs-ext/releases) and fetch a `.pk3` file, put to data directory.
+- Go to [releases](https://github.com/NaitLee/xon-chs-ext/releases) and fetch a `.pk3` file, put to data directory  
+  And *rename* the file as `~xon-chs-ext.pk3`, note that leading tilde.
 
 - Or, `cd` to data directory and clone this repository: `git clone https://github.com/NaitLee/xon-chs-ext`  
   And *rename* the repository folder as `~xon-chs-ext.pk3dir`
