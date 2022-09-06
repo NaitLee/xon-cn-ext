@@ -80,12 +80,9 @@ Learn more & track the bug [here](https://github.com/DarkPlacesEngine/darkplaces
 
 ## License
 
-Without explicit statement, files here are published in license of their corresponding “original” file.  
-For example, Xonotic itself is in GNU GPLv2+, and some maps are in GNU GPLv3+, etc.
+Without explicit statement, files here are published in license of their corresponding “original” file.
 
-If a file is independent to vanilla, it’s released under GNU GPLv2+.
-
-You can seek & learn from [Official repository](https://gitlab.com/xonotic/) for details.
+Xonotic itself and most of its assets are in GNU GPLv3+, see related COPYING file for detail. You can seek & learn from [Official repository](https://gitlab.com/xonotic/) for details.
 
 ## Plans
 

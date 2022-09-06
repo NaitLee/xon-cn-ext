@@ -74,12 +74,9 @@ Xonotic/
 
 ## 授权
 
-若无特殊声明，这里的文件均以其对应“原版”文件的协议发布。  
-如，Xonotic 本身是 GNU GPLv2+，其中一些地图资源为 GNU GPLv3+，等等。
+若无特殊声明，这里的文件均以其对应“原版”文件的协议发布。
 
-若某文件独立于原版，则以 GNU GPLv2+ 发布。
-
-可在[官方仓库](https://gitlab.com/xonotic/)详细搜集了解。
+Xonotic 本身及大部分资源以 GNU GPLv3+ 授权，详情在相关 COPYING 文件有声明。可在[官方仓库](https://gitlab.com/xonotic/)搜集了解。
 
 ## 计划
 
