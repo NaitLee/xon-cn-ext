@@ -1,6 +1,6 @@
 #!/bin/sh
 DIR=copy/
-mkdir $DIR
+mkdir -p $DIR
 cp -r autoexec maps bots.txt bots-draft.txt font-xolonium.cfg README.en-US.md README.md $DIR
 cd $DIR
 git checkout zh-cn
