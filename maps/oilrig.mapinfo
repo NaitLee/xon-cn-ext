@@ -12,4 +12,4 @@ gametype ft
 gametype ka
 hidden
 
-clientsettemp_for_type all r_shadow_realtime_world 0 // 在此禁用，因爲性能顯著降低
+clientsettemp_for_type all r_shadow_realtime_world 0 // 在此禁用，因為效能顯著降低
