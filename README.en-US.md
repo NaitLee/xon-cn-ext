@@ -76,7 +76,8 @@ If affected assets are updated in later time, this pack will invalidate them, an
 (But no problem at the moment, as large-scale changes won’t take place in this period.)
 
 All files here are plain text files. If you’ve found something inappropriate, don’t hesitate to open it and correct.  
-Indeed, Simp. / Trad. translations in other branches are converted from Traditional Characters (in `main`) with OpenCC. Something wrong? Better translation in your mind? Discuss it here!
+Indeed, Simp. / Trad. translations in other branches are converted from Traditional Characters (in `main`) with OpenCC. Phrase habit is of Simplified Chinese.  
+Something wrong? Better translation in your mind? Discuss it here!
 
 Currently there will be performance problem when gaming in CJK language, because font-rendering of upstream DarkPlaces engine is unfriendly to that.  
 Learn more & track the bug [here](https://github.com/DarkPlacesEngine/darkplaces/issues/49).
