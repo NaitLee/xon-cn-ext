@@ -1,5 +1,5 @@
 
-| [简体中文](../zh-cn/README.md) | [正體中文](../zh-tw/README.md) | [傳統字中文](../main/README.md) | [English & Worldwide Notes](./README.en-US.md)
+| [简体中文](../zh-cn/README.md) | [正体中文](../zh-tw/README.md) | [传统字中文](../main/README.md) | [English & Worldwide Notes](./README.en-US.md)
 
 **To worldwide people**
 
