@@ -1,16 +1,15 @@
-[简体中文](./README.md) | English & Worldwide Notes
+
+| [简体中文](../zh-cn/README.md) | [正體中文](../zh-tw/README.md) | [傳統字中文](../main/README.md) | [English & Worldwide Notes](./README.en-US.md)
 
 **To worldwide people**
 
-This is a “Xonotic Extended Language Pack” for Simplified Chinese.
+This is a “Xonotic Extended Language Pack” for Simplified & Traditional Chinese.
 
-If desired, you can continue reading to learn about how this works, and make one in your own language.
+If desired, you can continue reading to learn about how the idea works, and make one in your own language.
 
 # Xonotic Extended Language Pack
 
-**For Simp. Chinese**
-
-This repository contains a small portion of modified [Xonotic](https://xonotic.org/) assets, achieved “extended translation” of Simp. Chinese in a non-standard way, in order to improve gaming experience of domestic players.
+This repository contains a small portion of modified [Xonotic](https://xonotic.org/) assets, achieved “extended translation” of Chinese in a non-standard way, in order to improve gaming experience of domestic players.
 
 ## Content
 
@@ -18,7 +17,7 @@ Currently it covers:
 
 - Description of single-player Campaigns
 - Name and Descriptions of each official maps
-- Nickname of the Bots
+- Nickname of the Bots (*not* transliterations, close to their English meaning)
 - Description of a few useful console commands/variables
 
 ## Usage
@@ -45,17 +44,21 @@ The following context will refer this path as “data directory”.
 
 Then, “install” the pack:
 
-- Go to [releases](https://github.com/NaitLee/xon-chs-ext/releases) and fetch a `.pk3` file, put to data directory  
+- Go to [releases](https://github.com/NaitLee/xon-chs-ext/releases) and fetch a `.pk3` file (of `zh-cn` or `zh-tw`, according to your preference), put to data directory  
   And *rename* the file as `~xon-chs-ext.pk3`, note that leading tilde.
 
 - Or, `cd` to data directory and clone this repository: `git clone https://github.com/NaitLee/xon-chs-ext`  
-  And *rename* the repository folder as `~xon-chs-ext.pk3dir`
+  Then, *rename* the repository folder as `~xon-chs-ext.pk3dir`  
+  After that, switch to corresponding branch: `git checkout zh-cn/zh-tw/main`
 
 After that, optionally:
 
-- Get the newest vanilla Simp. Chinese translation file of Xonotic, [click here to download](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false), put to data directory, to gather newest progress & corrections inside.
+- Get the newest vanilla Chinese translation file of Xonotic: [Simplified Chinese](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false) | [Traditional Chinese](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_TW.po?inline=false)\*, put to data directory, to gather newest progress & corrections inside.
 
-- If the default pixel font (Unifont) isn’t beautiful, customize it. Get Noto CJK fonts from [here](https://github.com/googlefonts/noto-cjk/releases) (for this pack, recommends [Subset OTFs of Simp. Chinese](https://github.com/googlefonts/noto-cjk/releases/download/Sans2.004/18_NotoSansSC.zip)), decompress, pick a satisfying variant, put to data directory and rename it as `font.otf`.
+\* Traditional Chinese translation isn’t complete yet, please wait for contributors to fulfill it. Or try to convert from Simplified translation with [OpenCC](https://github.com/BYVoid/OpenCC).
+
+- If the default pixel font (Unifont) isn’t beautiful, customize it. Put your favorite `.ttf` (or `.otf`) font to data directory, and rename it as `font.ttf` (or `font.otf`).  
+  For example, get suitable Noto CJK fonts from [here](https://github.com/googlefonts/noto-cjk/releases), decompress and pick a satisfying variant,
 
 Finally, start the game and enjoy.
 
@@ -63,17 +66,17 @@ Finally, start the game and enjoy.
 
 This extension pack doesn’t respect in-game language settings. Thus, if you use e.g. English, Chinese content will still be there.
 
-Implementation of the pack have considered portability. Thus, it's possible to mix & republish it with Xonotic, share it with local friends; or put to a U-disk and play anywhere anytime.
+Implementation of the pack have considered portability. Thus, it's possible to mix & redistribute it with Xonotic, share it with friends; or put to a portable storage and play anywhere anytime.
 
 To increase priority of this pack, filename of which starts with `~`. When DarkPlaces engine query files, packs are sorted by name, later ones take more priority.
 
 This pack directly overrides vanilla game assets under engine mechanism. Most of the assets are *functional*, i.e. they affects the gameplay.  
-Tested in Xonotic 0.8.5 and [latest git version](https://gitlab.com/xonotic/xonotic/-/wikis/Repository_Access) (Sep. 1, 2022), behaving well.  
+Tested in Xonotic 0.8.5 and [latest git version](https://gitlab.com/xonotic/xonotic/-/wikis/Repository_Access) (Dec. 14, 2022), behaving well.  
 If affected assets are updated in later time, this pack will invalidate them, and conflict may occur if things go severe.  
-But no problem at the moment, expected big change is to remove 2 maps, delete related `.mapinfo` files when that happen.
+(But no problem at the moment, as large-scale changes won’t take place in this period.)
 
 All files here are plain text files. If you’ve found something inappropriate, don’t hesitate to open it and correct.  
-Better translation in your mind? Discuss it here!
+Indeed, Simp. / Trad. translations in other branches are converted from Traditional Characters (in `main`) with OpenCC. Something wrong? Better translation in your mind? Discuss it here!
 
 Currently there will be performance problem when gaming in CJK language, because font-rendering of upstream DarkPlaces engine is unfriendly to that.  
 Learn more & track the bug [here](https://github.com/DarkPlacesEngine/darkplaces/issues/49).
