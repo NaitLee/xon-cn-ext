@@ -1,3 +1,5 @@
+**NOTE: Just renamed this repo, content will be updated within hours**
+
 简体中文 | [English & Worldwide Notes](./README.en-US.md)
 
 # Xonotic 扩展汉化包
