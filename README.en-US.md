@@ -88,6 +88,8 @@ Without explicit statement, files here are published in license of their corresp
 
 Xonotic itself and most of its assets are in GNU GPLv3+, see related COPYING file for detail. You can seek & learn from [Official repository](https://gitlab.com/xonotic/) for details.
 
+Except that, there’s a custom OpenCC configuration `t2twp.json` in this repository, which is released under [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE), as like OpenCC itself.
+
 ## Plans
 
 - Chinese Vocal Pack! But meeting a brave broadcaster may not be easy.

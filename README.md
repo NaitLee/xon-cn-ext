@@ -84,6 +84,8 @@ Xonotic/
 
 Xonotic 本身及大部分资源以 GNU GPLv3+ 授权，详情在相关 COPYING 文件有声明。可在[官方仓库](https://gitlab.com/xonotic/)搜集了解。
 
+另外，仓库带有一份自制的、用于 OpenCC 的配置文件 `t2twp.json`，它以 OpenCC 本身的协议 [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE) 发布。
+
 ## 计划
 
 - 汉语语音包！不过，遇到自告奋勇的播音员可能并非易事。
