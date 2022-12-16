@@ -17,7 +17,7 @@ Currently it covers:
 
 - Description of single-player Campaigns
 - Name and Descriptions of each official maps
-- Nickname of the Bots (*not* transliterations, close to their English meaning)
+- Nickname of the Bots (that are close to their English meaning)
 - Description of a few useful console commands/variables
 
 ## Usage
@@ -44,14 +44,13 @@ The following context will refer this path as “data directory”.
 
 Then, “install” the pack:
 
-- Go to [releases](https://github.com/NaitLee/xon-chs-ext/releases) and fetch a `.pk3` file (of `zh-cn` or `zh-tw`, according to your preference), put to data directory  
-  And *rename* the file as `~xon-chs-ext.pk3`, note that leading tilde.
+- Go to [releases](https://github.com/NaitLee/xon-chs-ext/releases) and fetch a `.pk3` file (of `zh-cn` or `zh-tw`, according to your preference), put to data directory
 
-- Or, `cd` to data directory and clone this repository: `git clone https://github.com/NaitLee/xon-chs-ext`  
+- **Or**, `cd` to data directory and clone this repository: `git clone https://github.com/NaitLee/xon-chs-ext`  
   Then, *rename* the repository folder as `~xon-chs-ext.pk3dir`  
   After that, switch to corresponding branch: `git checkout zh-cn/zh-tw/main`
 
-After that, optionally:
+After that, **optionally**:
 
 - Get the newest vanilla Chinese translation file of Xonotic: [Simplified Chinese](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false) | [Traditional Chinese](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_TW.po?inline=false)\*, put to data directory, to gather newest progress & corrections inside.
 
@@ -68,18 +67,19 @@ This extension pack doesn’t respect in-game language settings. Thus, if you us
 
 Implementation of the pack have considered portability. Thus, it's possible to mix & redistribute it with Xonotic, share it with friends; or put to a portable storage and play anywhere anytime.
 
-To increase priority of this pack, filename of which starts with `~`. When DarkPlaces engine query files, packs are sorted by name, later ones take more priority.
+To increase priority of this pack, filename of which starts with `~`. When DarkPlaces engine queries files, packs are sorted by name, later ones take more priority.  
+The released packs have filenames starting with `z`, which already takes higher precedence than the original data file’s `x`, thus no need to rename (anymore).
 
 This pack directly overrides vanilla game assets under engine mechanism. Most of the assets are *functional*, i.e. they affects the gameplay.  
 Tested in Xonotic 0.8.5 and [latest git version](https://gitlab.com/xonotic/xonotic/-/wikis/Repository_Access) (Dec. 14, 2022), behaving well.  
 If affected assets are updated in later time, this pack will invalidate them, and conflict may occur if things go severe.  
-(But no problem at the moment, as large-scale changes won’t take place in this period.)
+(But no problem at the moment, expecting no large-scale changes at the moment.)
 
 All files here are plain text files. If you’ve found something inappropriate, don’t hesitate to open it and correct.  
 Indeed, Simp. / Trad. translations in other branches are converted from Traditional Characters (in `main`) with OpenCC. Phrase habit is of Simplified Chinese.  
 Something wrong? Better translation in your mind? Discuss it here!
 
-Currently there will be performance problem when gaming in CJK language, because font-rendering of upstream DarkPlaces engine is unfriendly to that.  
+Currently there is a notable performance problem when gaming in CJK language, because font-rendering of upstream DarkPlaces engine is unfriendly to that.  
 Learn more & track the bug [here](https://github.com/DarkPlacesEngine/darkplaces/issues/49).
 
 ## License

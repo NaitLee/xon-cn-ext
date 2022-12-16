@@ -13,7 +13,7 @@
 
 - 單人任務的詳細描述
 - 各官方地圖的名稱與描述
-- 機器人玩家名稱（*不是*音譯，貼近英文名意）
+- 機器人玩家名稱（貼近英文名意的暱稱）
 - 小部分實用控制檯指令/變數的解釋
 
 ## 使用
@@ -40,14 +40,13 @@ Xonotic/
 
 然後，使用任一方式“安裝”：
 
-- 去[釋出頁面](https://github.com/NaitLee/xon-cn-ext/releases)下載相應文字的資源包（字尾為 `.pk3` ），放入資源目錄  
-  然後，將資源包檔案*重新命名*為 `~xon-cn-ext.pk3`，注意開頭的波浪號
+- 去[釋出頁面](https://github.com/NaitLee/xon-cn-ext/releases)下載相應文字的資源包（字尾為 `.pk3`），放入資源目錄
 
-- 也可以*在資源目錄*克隆此倉庫：`git clone https://github.com/NaitLee/xon-cn-ext`  
+- **或者**，也可以*在資源目錄*克隆此倉庫：`git clone https://github.com/NaitLee/xon-cn-ext`  
   然後，將倉庫資料夾*重新命名*為 `~xon-cn-ext.pk3dir`  
   並在倉庫切換至相應文字的分支：`git checkout zh-cn/zh-tw/main`
 
-之後，可考慮：
+之後，**可考慮**：
 
 - 獲取最新的 Xonotic 標準翻譯資源，點選下載：[簡](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false) | [正](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_TW.po?inline=false)\*，放入資源目錄，以獲得最新的翻譯進度與修正。
 
@@ -64,18 +63,19 @@ Xonotic/
 
 此包的實現考慮了便攜性。即，可以把本包整合進 Xonotic 程式併發行，分享給朋友；或放入移動儲存介質，隨時隨地玩。
 
-資源包檔案/目錄的命名以 `~` 開頭，是為了提高包的優先順序。DarkPlaces 引擎檢索資源包時以檔名排序、靠後的優先。
+資源包目錄的命名以 `~` 開頭，是為了提高包的優先順序。DarkPlaces 引擎檢索資源包時以檔名排序、靠後的優先。  
+發行的资源包檔案以 `z` 開頭，優先順序已較原版資料包的 `x` 高，因而無須再調整。
 
 此包利用遊戲引擎機制直接覆蓋了原版檔案，其中大部分是*功能性*的，即會影響遊戲玩法。  
 已在 Xonotic 0.8.5 及截至目前（2022 年 12 月 14 日）最新的 [git 編譯版本](https://gitlab.com/xonotic/xonotic/-/wikis/Repository_Access)測試，表現良好。  
 若之後遊戲在受影響的檔案上有更新改動，使用此包時不會反映，且嚴重時可能導致衝突。  
-（但目前可放心，暫無預計大幅更改。）
+（但目前可放心，預計暫無大幅更改。）
 
 這裡的每一份檔案都是純文字檔案。如果有不當之處，不妨開啟它，動手糾正。  
 其他分支的簡體、正體资源從傳統字使用 OpenCC 轉換而來。傳統字版本使用簡體用詞。  
 存在謬誤？或覺得某個翻譯如何更好？可以就此討論！
 
-目前，由於遊戲上游 DarkPlaces 引擎的文字渲染方式存在不妥，使用中日韓語言時，遊戲會有明顯效能問題。  
+目前，由於遊戲上游 DarkPlaces 引擎的文字渲染方式存在不妥，使用中日韓語言時，遊戲會有較明顯的效能問題。  
 可於[此處](https://github.com/DarkPlacesEngine/darkplaces/issues/49)詳細瞭解、跟蹤該缺陷。
 
 ## 授權
