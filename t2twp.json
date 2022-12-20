@@ -1,5 +1,5 @@
 {
-  "name": "Traditional Chinese (with China mainland phrase habit) to Traditional Chinese (Taiwan standard, with phrases)",
+  "name": "China Mainland phrases to Taiwan phrases (only), in Traditional Chinese",
   "segmentation": {
     "type": "mmseg",
     "dict": {
@@ -11,11 +11,6 @@
     "dict": {
       "type": "ocd2",
       "file": "TWPhrases.ocd2"
-    }
-  }, {
-    "dict": {
-      "type": "ocd2",
-      "file": "TWVariants.ocd2"
     }
   }]
 }
