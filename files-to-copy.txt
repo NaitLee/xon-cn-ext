@@ -1,0 +1,12 @@
+autoexec
+maps
+bots.txt
+bots-draft.txt
+font-xolonium.cfg
+README.en-US.md
+README.md
+patch-t2s.sed
+patch-twp.sed
+pack.sh
+files-to-copy.txt
+.gitignore
