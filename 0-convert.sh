@@ -44,7 +44,7 @@ git checkout zh-hk || exit 1
 cd "$DIR"
 for i in $(find ./);
     do test -f "$i" && {
-        sed -f patch-twp.sed "$i" | opencc -c t2twp.json | opencc -c t2hk.json | sed s/​//g >"../$i"
+        opencc -c t2hk.json -i "$i" | sed s/​//g >"../$i"
 }; done
 cd ..
 bash "$DIR/pack.sh" zh-hk
