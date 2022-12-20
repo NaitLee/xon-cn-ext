@@ -1,5 +1,5 @@
 
-| [简体中文](../zh-cn/README.md) | [正体中文](../zh-tw/README.md) | [传统字中文](../main/README.md) | [English & Worldwide Notes](./README.en-US.md)
+| [Simplified Chinese](../zh-cn/README.md) | [Traditional Chinese (Taiwan)](../zh-tw/README.md) | [Traditional Chinese (Hong Kong)](../zh-hk/README.md) | [Traditional Chinese (Classic)](../main/README.md) | [English & Worldwide Notes](./README.en-US.md)
 
 **To worldwide people**
 
@@ -52,9 +52,9 @@ Then, “install” the pack:
 
 After that, **optionally**:
 
-- Get the newest vanilla Chinese translation file of Xonotic: [Simplified Chinese](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false) | [Traditional Chinese](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_TW.po?inline=false)\*, put to data directory, to gather newest progress & corrections inside.
+- Get the newest vanilla Chinese translation file of Xonotic: [`zh-CN`](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false) | [`zh-TW`](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_TW.po?inline=false) | [`zh-HK`](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_HK.po?inline=false), put to data directory, to gather newest progress & corrections inside.
 
-\* Traditional Chinese translation isn’t complete yet, please wait for contributors to fulfill it. Or try to convert from Simplified translation with [OpenCC](https://github.com/BYVoid/OpenCC).
+<!-- \* Traditional Chinese translation isn’t complete yet, please wait for contributors to fulfill it. Or try to convert from Simplified translation with [OpenCC](https://github.com/BYVoid/OpenCC). -->
 
 - If the default pixel font (Unifont) isn’t beautiful, customize it. Put your favorite `.ttf` (or `.otf`) font to data directory, and rename it as `font.ttf` (or `font.otf`).  
   For example, get suitable Noto CJK fonts from [here](https://github.com/googlefonts/noto-cjk/releases), decompress and pick a satisfying variant,
@@ -76,8 +76,8 @@ If affected assets are updated in later time, this pack will invalidate them, an
 (But no problem at the moment, expecting no large-scale changes at the moment.)
 
 All files here are plain text files. If you’ve found something inappropriate, don’t hesitate to open it and correct.  
-Indeed, Simp. / Trad. translations in other branches are converted from Traditional Characters (in `main`) with OpenCC. Phrase habit is of Simplified Chinese.  
-Something wrong? Better translation in your mind? Discuss it here!
+Translations in other branches are converted from Traditional Characters (in `main`) with OpenCC & sed. Phrase habit is of Simplified Chinese.  
+Something is wrong? Better translation in your mind? Discuss it here!
 
 Currently there is a notable performance problem when gaming in CJK language, because font-rendering of upstream DarkPlaces engine is unfriendly to that.  
 Learn more & track the bug [here](https://github.com/DarkPlacesEngine/darkplaces/issues/49).
@@ -88,7 +88,7 @@ Without explicit statement, files here are published in license of their corresp
 
 Xonotic itself and most of its assets are in GNU GPLv3+, see related COPYING file for detail. You can seek & learn from [Official repository](https://gitlab.com/xonotic/) for details.
 
-Except that, there’s a custom OpenCC configuration `t2twp.json` in this repository, which is released under [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE), as like OpenCC itself.
+Except that, there’s a custom OpenCC configuration `t2twp.json`, which is released under [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE), as like OpenCC itself; sed files for characters & phrases conversion are in Public Domain.
 
 ## Plans
 

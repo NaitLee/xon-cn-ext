@@ -1,9 +1,9 @@
 
-| [简体中文](../zh-cn/README.md) | [正体中文](../zh-tw/README.md) | [传统字中文](../main/README.md) | [English & Worldwide Notes](./README.en-US.md)
+| [简体字](../zh-cn/README.md) | [正体字](../zh-tw/README.md) | [香港字](../zh-hk/README.md) | [传统字](../main/README.md) | [English & Worldwide Notes](./README.en-US.md)
 
 # Xonotic 扩展汉化包
 
-此仓库包含小部分对 [Xonotic](https://xonotic.org/) 资源​文件的修改版，使用非标准方式达到覆盖面更广的汉化，方便英语不熟练的玩家提升游戏体验。
+此仓库包含小部分对 [Xonotic](https://xonotic.org/) 资源文件的修改版，使用非标准方式达到覆盖面更广的汉化，方便英语不熟练的玩家提升游戏体验。
 
 可继续阅读，以了解更多。
 
@@ -48,9 +48,9 @@ Xonotic/
 
 之后，**可考虑**：
 
-- 获取最新的 Xonotic 标准翻译资源，点击下载：[简](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false) | [正](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_TW.po?inline=false)\*，放入资源目录，以获得最新的翻译进度与修正。
+- 获取最新的 Xonotic 标准翻译资源，点击下载：[简](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false) | [正](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_TW.po?inline=false) | [港](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_HK.po?inline=false)，放入资源目录，以获得最新的翻译进度与修正。
 
-\* 正体翻译尚不完备，请待其贡献者完善之。或勉强使用 [OpenCC](https://github.com/BYVoid/OpenCC) 自简体翻译转换。
+<!-- \* 正体翻译尚不完备，请待其贡献者完善之。或勉强使用 [OpenCC](https://github.com/BYVoid/OpenCC) 自简体翻译转换。 -->
 
 - 如果默认的像素字体（Unifont）不好看，可自定。将心仪的 `.ttf`（或 `.otf`）字体放入资源目录，重命名为 `font.ttf` （或 `font.otf`） 即可。  
   如，可从[此处](https://github.com/googlefonts/noto-cjk/releases)获取合适的中日韩系列 Noto 字体，解压并挑选合适的一款。
@@ -72,7 +72,7 @@ Xonotic/
 （但目前可放心，预计暂无大幅更改。）
 
 这里的每一份文件都是纯文本文件。如果有不当之处，不妨打开它，动手纠正。  
-其他分支的简体、正体资源从传统字使用 OpenCC 转换而来。传统字版本使用简体用词。  
+位于其他分支的翻译从传统字使用 OpenCC 转换、sed 替换而来。传统字版本使用简体用词。  
 存在谬误？或觉得某个翻译如何更好？可以就此讨论！
 
 目前，由于游戏上游 DarkPlaces 引擎的文字渲染方式存在不妥，使用中日韩语言时，游戏会有较明显的性能问题。  
@@ -84,7 +84,7 @@ Xonotic/
 
 Xonotic 本身及大部分资源以 GNU GPLv3+ 授权，详情在相关 COPYING 文件有声明。可在[官方仓库](https://gitlab.com/xonotic/)搜集了解。
 
-另外，仓库带有一份自制的、用于 OpenCC 的配置文件 `t2twp.json`，它以 OpenCC 本身的协议 [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE) 发布。
+另外，仓库带有一份自制的、用于 OpenCC 的配置文件 `t2twp.json`，它以 OpenCC 本身的协议 [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE) 发布；包含转换字词的 sed 文件在公有领域。
 
 ## 计划
 
