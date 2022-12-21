@@ -52,14 +52,22 @@ Then, “install” the pack:
 
 After that, **optionally**:
 
-- Get the newest vanilla Chinese translation file of Xonotic: [`zh-CN`](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false) | [`zh-TW`](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_TW.po?inline=false) | [`zh-HK`](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_HK.po?inline=false), put to data directory, to gather newest progress & corrections inside.
-
-<!-- \* Traditional Chinese translation isn’t complete yet, please wait for contributors to fulfill it. Or try to convert from Simplified translation with [OpenCC](https://github.com/BYVoid/OpenCC). -->
+- Get the newest vanilla Chinese translation file of Xonotic: [`zh-CN`](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false) | [`zh-TW`](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_TW.po?inline=false)\* | [`zh-HK`](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_HK.po?inline=false)\*, put to data directory, to gather newest progress & corrections inside.
 
 - If the default pixel font (Unifont) isn’t beautiful, customize it. Put your favorite `.ttf` (or `.otf`) font to data directory, and rename it as `font.ttf` (or `font.otf`).  
   For example, get suitable Noto CJK fonts from [here](https://github.com/googlefonts/noto-cjk/releases), decompress and pick a satisfying variant,
 
-Finally, start the game and enjoy.
+Finally, start the game and enjoy ✔
+
+----
+
+\* Please note that, for the completion of Simplified Chinese translation is done all by my self, while other variants didn’t move forward, I decided to:
+
+- Convert the complete Simplified translation to Traditional Character variant with OpenCC, and fix (conversion) mistakes *manually*, then regard the result as “Unified translation” (the file isn’t public yet), convert Simplified translation from which in the future
+
+- Summarize phrase differences (between `zh-CN` and `zh-TW`) from the original TW translation (see file `patch-twp.sed`), and *gather good works from it* to Unified translation, then convert to TW variant that is *almost OK*
+
+- Concluded by browsing some webpages, there shouldn’t be much phrase differences between `zh-CN` and `zh-HK`, hence it’s converted directly from Unified translation (i.e. only a few characters are converted), filling the 0% hole
 
 ## Acknowledgements
 
@@ -75,8 +83,8 @@ Tested in Xonotic 0.8.5 and [latest git version](https://gitlab.com/xonotic/xono
 If affected assets are updated in later time, this pack will invalidate them, and conflict may occur if things go severe.  
 (But no problem at the moment, expecting no large-scale changes at the moment.)
 
-All files here are plain text files. If you’ve found something inappropriate, don’t hesitate to open it and correct.  
-Translations in other branches are converted from Traditional Characters (in `main`) with OpenCC & sed. Phrase habit is of Simplified Chinese.  
+All files here are plain text files. If you’ve found something inappropriate, don’t hesitate to open it and do corrections.  
+Translations in other branches are converted from Traditional Characters (in `main`) with OpenCC & sed. Phrase habit is of Simplified Chinese. You can know more from file `0-convert.sh`.  
 Something is wrong? Better translation in your mind? Discuss it here!
 
 Currently there is a notable performance problem when gaming in CJK language, because font-rendering of upstream DarkPlaces engine is unfriendly to that.  
