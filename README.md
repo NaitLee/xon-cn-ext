@@ -48,14 +48,22 @@ Xonotic/
 
 之后，**可考虑**：
 
-- 获取最新的 Xonotic 标准翻译资源，点击下载：[简](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false) | [正](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_TW.po?inline=false) | [港](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_HK.po?inline=false)，放入资源目录，以获得最新的翻译进度与修正。
-
-<!-- \* 正体翻译尚不完备，请待其贡献者完善之。或勉强使用 [OpenCC](https://github.com/BYVoid/OpenCC) 自简体翻译转换。 -->
+- 获取最新的 Xonotic 标准翻译资源，点击下载：[简](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_CN.po?inline=false) | [正](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_TW.po?inline=false)\* | [港](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/raw/master/common.zh_HK.po?inline=false)\*，放入资源目录，以获得最新的翻译进度与修正。
 
 - 如果默认的像素字体（Unifont）不好看，可自定。将心仪的 `.ttf`（或 `.otf`）字体放入资源目录，重命名为 `font.ttf` （或 `font.otf`） 即可。  
   如，可从[此处](https://github.com/googlefonts/noto-cjk/releases)获取合适的中日韩系列 Noto 字体，解压并挑选合适的一款。
 
-配置完毕后，启动游戏即可。
+配置完毕后，启动游戏即可 ✔
+
+----
+
+\* 请注意，由于近月来我单打独斗完成了简体翻译，而其他翻译迟迟不前，故做拙策：
+
+- 从完善的简体翻译用 OpenCC 转换为传统字，并*人工复核*纠正谬误，作为“一统翻译”（文件尚未公开），后从之转换简体翻译
+
+- 从原正体翻译*人工总结*用语差异（见文件 `patch-twp.sed`），并*吸收其中优秀成果*至一统翻译，再转换成*近乎完备*的正体翻译
+
+- 经浏览浅察，香港用语应与大陆差别不大，故暂定直接从一统翻译转换（即，仅转换了用字），填补原先 0% 的空白
 
 ## 须知
 
@@ -72,7 +80,7 @@ Xonotic/
 （但目前可放心，预计暂无大幅更改。）
 
 这里的每一份文件都是纯文本文件。如果有不当之处，不妨打开它，动手纠正。  
-位于其他分支的翻译从传统字使用 OpenCC 转换、sed 替换而来。传统字版本使用简体用词。  
+位于其他分支的翻译从传统字使用 OpenCC 转换、sed 替换而来。传统字版本使用简体用词。可从文件 `0-convert.sh` 了解。  
 存在谬误？或觉得某个翻译如何更好？可以就此讨论！
 
 目前，由于游戏上游 DarkPlaces 引擎的文字渲染方式存在不妥，使用中日韩语言时，游戏会有较明显的性能问题。  
