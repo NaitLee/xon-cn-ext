@@ -96,7 +96,7 @@ Without explicit statement, files here are published in license of their corresp
 
 Xonotic itself and most of its assets are in GNU GPLv3+, see related COPYING file for detail. You can seek & learn from [Official repository](https://gitlab.com/xonotic/) for details.
 
-Except that, there’s a custom OpenCC configuration `t2twp.json`, which is released under [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE), as like OpenCC itself; sed files for characters & phrases conversion are in Public Domain.
+Except that, OpenCC configuration files `zh-cn.json`, `zh-hk.json` and `zh-tw.json` are released under [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE), as like OpenCC itself; patch text files are in Public Domain.
 
 ## Plans
 

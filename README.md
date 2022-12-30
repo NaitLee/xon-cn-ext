@@ -3,7 +3,7 @@
 
 # Xonotic 擴展漢化包
 
-此倉庫包含小部分對 [Xonotic](https://xonotic.org/) 資源檔案的修改版，使用非標準方式達到覆蓋面更廣的漢化，方便英語不熟練的玩家提升遊戲體驗。
+此倉庫包含小部分對 [Xonotic](https://xonotic.org/) 資原始檔的修改版，使用非標準方式達到覆蓋面更廣的漢化，方便英語不熟練的玩家提升遊戲體驗。
 
 可繼續閱讀，以瞭解更多。
 
@@ -92,7 +92,7 @@ Xonotic/
 
 Xonotic 本身及大部分資源以 GNU GPLv3+ 授權，詳情在相關 COPYING 檔案有宣告。可在[官方倉庫](https://gitlab.com/xonotic/)蒐集瞭解。
 
-另外，倉庫帶有一份自製的、用於 OpenCC 的配置檔案 `t2twp.json`，它以 OpenCC 本身的協議 [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE) 釋出；包含轉換字詞的 sed 檔案在公有領域。
+另外，用於 OpenCC 的配置檔案 `zh-cn.json`、`zh-hk.json` 及 `zh-tw.json` 以 OpenCC 的協議 [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE) 釋出；作為轉換字詞補丁 (patch) 的文字檔案在公有領域。
 
 ## 計劃
 
