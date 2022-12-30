@@ -5,8 +5,12 @@ bots-draft.txt
 font-xolonium.cfg
 README.en-US.md
 README.md
-patch-t2s.sed
-patch-twp.sed
 pack.sh
 files-to-copy.txt
 .gitignore
+zh-cn.json
+zh-hk.json
+zh-tw.json
+patch-cn.txt
+patch-quotation.txt
+patch-twp.txt

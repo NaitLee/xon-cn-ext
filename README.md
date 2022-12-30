@@ -92,7 +92,7 @@ Xonotic/
 
 Xonotic 本身及大部分资源以 GNU GPLv3+ 授权，详情在相关 COPYING 文件有声明。可在[官方仓库](https://gitlab.com/xonotic/)搜集了解。
 
-另外，仓库带有一份自制的、用于 OpenCC 的配置文件 `t2twp.json`，它以 OpenCC 本身的协议 [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE) 发布；包含转换字词的 sed 文件在公有领域。
+另外，用于 OpenCC 的配置文件 `zh-cn.json`、`zh-hk.json` 及 `zh-tw.json` 以 OpenCC 的协议 [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE) 发布；作为转换字词补丁 (patch) 的文本文件在公有领域。
 
 ## 计划
 
