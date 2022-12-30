@@ -1,9 +1,9 @@
 
 | [简体字](../zh-cn/README.md) | [正體字](../zh-tw/README.md) | [香港字](../zh-hk/README.md) | [傳統字](../main/README.md) | [English & Worldwide Notes](./README.en-US.md)
 
-# Xonotic 擴​展漢化包
+# Xonotic 擴展漢化包
 
-此倉庫包含小部分對 [Xonotic](https://xonotic.org/) 資源​文件的修改版，使用非標準方式達到覆蓋面更廣的漢化，方便英語不熟練的玩家提升遊戲體驗。
+此倉庫包含小部分對 [Xonotic](https://xonotic.org/) 資源文件的修改版，使用非標準方式達到覆蓋面更廣的漢化，方便英語不熟練的玩家提升遊戲體驗。
 
 可繼續閱讀，以瞭解更多。
 
@@ -67,7 +67,7 @@ Xonotic/
 
 ## 須知
 
-此擴​展包並不遵從遊戲語言設定。即，若您換到英文，此包的中文內容仍在。
+此擴展包並不遵從遊戲語言設定。即，若您換到英文，此包的中文內容仍在。
 
 此包的實現考慮了便攜性。即，可以把本包整合進 Xonotic 程序併發行，分享給朋友；或放入移動存儲介質，隨時隨地玩。
 
@@ -92,7 +92,7 @@ Xonotic/
 
 Xonotic 本身及大部分資源以 GNU GPLv3+ 授權，詳情在相關 COPYING 文件有聲明。可在[官方倉庫](https://gitlab.com/xonotic/)蒐集瞭解。
 
-另外，倉庫帶有一份自製的、用於 OpenCC 的配置文件 `t2twp.json`，它以 OpenCC 本身的協議 [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE) 發佈；包含轉換字詞的 sed 文件在公有領域。
+另外，用於 OpenCC 的配置文件 `zh-cn.json`、`zh-hk.json` 及 `zh-tw.json` 以 OpenCC 的協議 [Apache 2.0](https://github.com/BYVoid/OpenCC/blob/master/LICENSE) 發佈；作爲轉換字詞補丁 (patch) 的文本文件在公有領域。
 
 ## 計劃
 
