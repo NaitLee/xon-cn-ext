@@ -23,7 +23,7 @@ convert() {
         fi
     done
     cd ..
-    bash "$DIR/pack.sh" $lang
+    bash "$DIR/1-pack.sh" $lang
     git add -A
     git commit -m "[script] convert & update from main"
 }
