@@ -1,0 +1,7 @@
+title 勇往直前
+description 未来风格的夺旗战地图
+author dublpaws, Debugger
+cdtrack 21
+has weapons
+gametype ctf
+size -1920 -800 -1760 4096 6048 1536 // Bounds of the lightgrid brush, if not set here the minimap won't be scaled properly
