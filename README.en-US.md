@@ -63,7 +63,7 @@ Finally, start the game and enjoy ✔
 
 \* Please note that, for the completion of Simplified Chinese translation is done all by my self, while other variants didn’t move forward, I decided to:
 
-- Convert the complete Simplified translation to Traditional Character variant with OpenCC, and fix (conversion) mistakes *manually*, then regard the result as “Unified translation” (the file isn’t public yet), convert Simplified translation from which in the future
+- Convert the complete Simplified translation to Traditional Character variant with OpenCC, and fix (conversion) mistakes *manually*, then regard the result as “Unified translation” (~~the file isn’t public yet~~[see here](https://github.com/NaitLee/xon-zh-grand-l10n)), convert Simplified translation from which in the future
 
 - Summarize phrase differences (between `zh-CN` and `zh-TW`) from the original TW translation (see file `patch-twp.sed`), and *gather good works from it* to Unified translation, then convert to TW variant that is *almost OK*
 
