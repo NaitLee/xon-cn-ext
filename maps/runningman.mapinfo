@@ -1,9 +1,0 @@
-title 向前衝
-description 中等大小的快節奏封閉地圖
-author FruitieX, Cortez, Strahlemann, Debugger
-cdtrack 6
-has weapons
-gametype dm
-gametype lms
-gametype ka
-gametype duel

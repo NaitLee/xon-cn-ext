@@ -1,9 +1,0 @@
-title 起舞
-description 非常空曠的小型奪旗戰地圖，漂浮在海洋之上
-author FruitieX, dublpaws, Debugger, packer
-cdtrack 10
-has weapons
-gametype ctf
-gametype kh
-gametype ft
-gametype ca

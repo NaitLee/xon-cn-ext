@@ -1,36 +1,14 @@
 #!/usr/bin/env bash
-DIR=copy
-FILES=$(cat files-to-copy.txt)
-
-mkdir -p "$DIR"
-echo "Will copy these files to '$DIR':"
-echo $FILES
-for file in $FILES; do {
-    if [ ! -e "$file" ]; then
-        echo "'$file' doesn't exist!"
-        exit 2
-    fi
-    cp -r "$file" "$DIR/"
-}; done
-
+camp=campaignxonoticbeta.txt
 convert() {
-    lang=${1}
-    git checkout $lang || exit 1
-    cd "$DIR"
-    for file in $(find ./); do
-        if test -f "$file"; then
-            opencc -c $lang.json -i "$file" >"../$file"
-        fi
-    done
-    cd ..
-    bash "$DIR/1-pack.sh" $lang
-    git add -A
-    git commit -m "[script] convert & update from main"
+    opencc -c ${1}.json -i "$camp.zh_Hant" >"$camp.${2}"
 }
+echo 'Converting campaign...'
 
-convert zh-cn
-convert zh-tw
-convert zh-hk
+cd maps
+convert zh-cn zh_CN
+convert zh-tw zh_TW
+convert zh-hk zh_HK
+cd ..
 
-git checkout main
 echo 'Done!'
